@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgba(255, 151, 165, 0.4);
+
 }
 
 #container{
@@ -13,6 +15,16 @@ body{
 }
 
 
+
+.text h1{
+   
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
 #container div:not(:first-child){
     padding: 3px;
     text-align: center;
@@ -20,6 +32,7 @@ body{
 }
 
 #circle{
+    
     height: 150px;
     width: 150px;
     border-radius: 50%;

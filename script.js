@@ -22,11 +22,12 @@ var color = [
   
   function changeColor() {
   
-    if (index === color.length) {
-      index = 0;
-    }
+    // if (index === color.length) {
+    //   index = 0;
+    // }
+    index =  Math.floor(Math.random()*10)
     document.getElementById("circle").style.backgroundColor = color[index];
-    index++;
+   // index++;
   }
   
   function changeShape() {
